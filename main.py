@@ -1,7 +1,6 @@
 import os
 from discord.ext import commands 
 import discord, requests, random, threading, asyncio
-from webserver import keep_alive
 
 with open('Bling.txt', 'r') as cookies:
     cookies1 = cookies.read().splitlines()
